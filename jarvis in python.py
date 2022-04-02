@@ -38,7 +38,7 @@ def date():
     speak(month)
     speak(year)
 def wishme():
-    speak("Welcome back MAK!")
+    speak("Welcome back PALAK!")
     time_()
     date()
     hour = datetime.datetime.now().hour
@@ -90,7 +90,7 @@ def jokes():
 
 def Introduction():
     speak("I am JARVIS 1.0 , Personal AI assistant , "
-    "I am created by MAK , "
+    "I am created by PALAK , "
     "I can help you in various regards , "
     "I can search for you on the Internet , "
     "I can also grab definitions for you from wikipedia , "
