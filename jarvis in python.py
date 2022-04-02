@@ -89,7 +89,7 @@ def jokes():
     speak(pyjokes.get_joke())
 
 def Introduction():
-    speak("I am JARVIS 1.0 , Personal AI assistant , "
+    speak("I am JARVIS, Personal AI assistant , "
     "I am created by PALAK , "
     "I can help you in various regards , "
     "I can search for you on the Internet , "
@@ -98,10 +98,10 @@ def Introduction():
     "Where you just have to command me , and I will do it for you , ")
 
 def Creator():
-    speak("MAK is an extra-ordinary person ,"
-    "He has a passion for Robotics, Artificial Intelligence and Machine Learning ,"
-    "He is very co-operative ,"
-    "If you are facing any problem regarding the 'Jarvis', He will be glad to help you ")
+    speak("PALAK is an extra-ordinary person ,"
+    "she has a passion for Artificial Intelligence and Machine Learning ,"
+    "she is very co-operative ,"
+    "If you are facing any problem regarding the 'Jarvis', she will be glad to help you ")
 
 
 
@@ -162,7 +162,7 @@ if __name__ == '__main__':
         elif "who am i" in query:
             speak("If you can talk, then definitely you are a human")
         elif "why you came to this world" in query:
-            speak("Thanks to MAK. further it is a secret")
+            speak("Thanks to PALAK. further it is a secret")
         elif 'word' in query:
             speak("opening MS Word")
             word = r'Word path'
